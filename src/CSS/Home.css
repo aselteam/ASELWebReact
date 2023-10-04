@@ -1,0 +1,75 @@
+.home-body{
+    height: 89vh;
+    background-image: linear-gradient(to right bottom,rgba(133, 216, 206, 0.8), rgba(0, 123, 167, 0.8)),url(../../public/backgroundimg/Home.jpg) ;
+    background-position: top;
+    clip-path: polygon(0 0 , 100% 0 , 100% 75% , 0 100%);
+    position: relative;
+}
+.logo-box {
+ position: absolute;
+ top: 40px;
+ left: 40px;
+}
+.logo{
+  height: 35px;
+}
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+}
+.heading-primary-main{
+   display: block;
+   font-size: 70px;
+   font-weight: 400;
+   letter-spacing: 35px;
+
+   animation-name: movelnLeft;
+   animation-duration: 3s;
+}
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+
+    animation: movelnRight 3s;
+}
+
+@keyframes movelnLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+     80%{
+        transform: translateX(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+    
+}
+@keyframes movelnRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px)
+    }
+     80%{
+        transform: translateX(-20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+    
+}

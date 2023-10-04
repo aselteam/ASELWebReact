@@ -1,0 +1,19 @@
+.about-content {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.about-card {
+  margin-bottom: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.statistic-card {
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}

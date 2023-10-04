@@ -1,0 +1,20 @@
+.header {
+  background: linear-gradient(to right, #85D8CE, #007BA7) !important;
+  padding: 0;
+}
+
+.menu {
+  line-height: 64px;
+}
+
+.menu-item {
+  font-size: 16px;
+  margin: 0 10px;
+}
+.ant-menu-item-selected a {
+  color: #fff; /* Set the color for the active link */
+  background-color: #1890ff !important; /* Set the background color for the active item */
+}
+.ant-menu-dark{
+    background: linear-gradient(to right bottom,rgba(133, 216, 206, 0.8), rgba(0, 123, 167, 0.8))!important;
+}
